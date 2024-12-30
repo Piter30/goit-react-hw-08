@@ -1,0 +1,30 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #2a363b;
+  z-index: 1000;
+}
+
+.headerContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+
+.main {
+  margin-top: 80px; /* dodaj odpowiedni margines, aby treść nie chowała się pod nagłówkiem */
+  padding: 20px 0;
+}

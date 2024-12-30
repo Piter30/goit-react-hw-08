@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin: 20px 0;
+}

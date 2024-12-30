@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+  margin: 0;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #2a363b;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-color: #e84a5f;
+  color: white;
+}
+
+.button:hover {
+  background-color: #c73648;
+}

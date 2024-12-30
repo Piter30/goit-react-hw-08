@@ -1,0 +1,28 @@
+.container {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.link {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: 18px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
